@@ -2,7 +2,7 @@
 
 ## 项目简介
 
-本项目是一个基于 CLIP (Contrastive Language-Image Pre-training) 架构的轻量级图文匹配模型实现。该项目提供了完整的训练、评估和可视化流程，可用于图像检索、文本检索等多模态任务。项目采用 PyTorch 框架实现，提供了完整的训练、评估和可视化流程。
+本项目是一个基于 CLIP (Contrastive Language-Image Pre-training) 架构的轻量级图文匹配模型实现。该项目提供了完整的训练、评估和可视化流程，可用于图像检索、文本检索等多模态任务。项目采用 PyTorch 框架。
 
 ## 主要特点
 
@@ -142,14 +142,14 @@ python alignment_visualization.py
 ![日落检索](results_sunset_over_mountains.png)
 
 ## 性能指标
-在 Flickr8k 测试集上的典型性能：
-R@1:
+### 在 Flickr8k 测试集上的典型性能：
+#### R@1:
   图像→文本: 31.73%
   文本→图像: 30.05%
-R@5:
+#### R@5:
   图像→文本: 60.49%
   文本→图像: 47.33%
-R@10:
+#### R@10:
   图像→文本: 72.10%
   文本→图像: 60.10%
 
